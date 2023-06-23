@@ -6,7 +6,7 @@ pipeline {
     }
 
     environment {
-        BUCKET_NAME = "sdfgh-${params.Environment}"
+        BUCKET_NAME = "bucket-name-${params.Environment}"
     }
 
     stages {
